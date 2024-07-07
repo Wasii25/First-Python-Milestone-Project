@@ -12,7 +12,7 @@ def display_board(board):
 
 #TO TAKE IN PLAYER INPUT
 def player_input():
-    p1, p2 = '', ''
+    p1,p2 = '', ''
 
     while p1 not in ['X', 'O']:
         p1 = input("Player 1: choose your option X or O: ")
@@ -127,5 +127,6 @@ while True:
                 else:
                     turn = 'Player 1'
 
+        
     if not replay():
         break
